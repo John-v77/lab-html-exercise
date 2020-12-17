@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/*
+```
+
+_Useful information_:
+
+- _form label color_: rgba(0,0,0,.05)
+- _form input color_: rgba(0,0,0,.05)
+- _form button background color_: #fb3e44
+- _form button letters color_: white*/
+
+body {
+  font-family: 'Poppins';
+  width: 1400px;
+  margin:auto;
+}
+
+/*__________________nav bar__________________*/
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav{
+	width: 600px;
+}
+
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a{
+	text-decoration: none;
+	color:black;
+}
+
+.BlackHeart{
+	width: 20px;
+	margin-right:1rem;
+}
+
+.nmp-logo{
+	width:60;
+	height: 25;
+}
+
+.magnifying-glass{
+	width:20;
+}
+
+
+
+/*__________________nav bar__________________*/
+
+
+/*_______________Build amazing things________*/
+#amazing-things{
+	background-color: rgba(232,217,217,.3);
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction:column;
+	height: 600px;
+	
+}
+
+	/*#build-amazing-title{
+		
+	}*/
+
+	.build-amazing-text{
+		text-align: center;
+		width: 420;
+	}
+
+	.amazing-things-buttons{
+		display: flex;
+		justify-content: center;
+	}
+
+		.amazing-things-buttons span{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin:0 20px;
+			width:200px;
+			height: 25px;
+			padding: 10px 0;
+		}
+
+
+			#see-plans{
+				color: white;
+				background-color: #FB3B49;
+				box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+				
+			}
+
+			#join-free{
+				background-color: white;
+				
+			}
+
+/*_______________Build amazing things________*/
+
+#bring-the-best{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction:column;
+	height: 600px;
+}
+
+
+#bring-the-best h2{
+	background-color: rgba(255,204,53,.4);
+	transform: skew(9deg,0deg);
+	font-style: italic;
+	padding:0 20px;
+	margin-top: 40px;
+}
+
+.bring-the-best-text{
+	text-align: center;
+		width: 700;
+}
+
+
+/*______Bring the best of open source to your company____*/
+.hexagon-img{
+	width: 200px;
+	height: 200px;
+}
+
+
+/*______Bring the best of open source to your company____*/
+
+
+
+
+/*_______________Zero configuration________*/
+.benefits-flex-box{
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+}
+	.benefits-box{
+		width:20%;
+		padding: 0 5%;
+		/*flex display: flex;
+		justify-content: center;
+		justify-content: space-between;*/
+	}
+		#benefits img{
+			width: 50px;
+			height: 50px;
+		}
+		#benefits h4{
+			color: #ED1C24;
+		}
+
+
+.Create-an-Org{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 60px auto 40px;
+	background-color: black;
+	box-shadow:8px 8px 0 rgba(128,83,35,.2);
+	width:250px;
+	height: 50px;
+}
+	.Create-an-Org h4{
+		color: white;
+	}
+/*_______________Zero configuration________*/
