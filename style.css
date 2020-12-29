@@ -12,7 +12,7 @@ _Useful information_:
 
 body {
   font-family: 'Poppins';
-  width: 1400px;
+  width: 90%;
   margin:auto;
 }
 
@@ -23,6 +23,11 @@ header > div {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid lightgray;
+}
+
+.nifty-penguin{
+	font-weight: 500;
+	word-spacing: 3px;
 }
 
 nav{
@@ -40,6 +45,8 @@ nav ul {
 nav a{
 	text-decoration: none;
 	color:black;
+	font-weight: 600;
+	
 }
 
 .BlackHeart{
@@ -48,20 +55,95 @@ nav a{
 }
 
 .nmp-logo{
-	width:60;
-	height: 25;
+	width:75;
+	height: 20;
+  padding: 15px 15px 5px 5px;
 }
 
-.magnifying-glass{
-	width:20;
+
+
+.bottom-bar{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 25px;
+  box-shadow: 0 5px 5px -3px lightgray;
+}
+.bottom-bar-logo{
+  text-align: left;
 }
 
+/* seach bar class */
+.search-bar{
+  width: 70%;
+  display: flex;
+  align-items: stretch;
+}
+
+  .magnifying-glass{
+    padding:10px;
+    background-color: rgb(242, 243, 244);
+	  width:15px;
+	  height:15px;
+  }
+  .search-bar [type="text"]{
+    width: 90%;
+    height: 35px;
+    margin: auto 0px;
+    color: rgb(112, 123, 124);
+    background-color:rgb(242, 243, 244);
+    border: 0;
+  }
+  	.search-bar [type="text"]{
+		  font-size: 1em;
+		  font-weight: lighter;
+	  }
+
+  .button-search{
+	padding: 0 30px;
+    color: white;
+    background-color: #FB3B49;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .login-bar{
+	  margin-left: 60px;
+	  display: flex;
+	  align-items: center;
+	  /* justify-items: flex-end; */
+  }
+    .join-button{
+	  border: 1px solid;
+	  padding: 5px 20px;
+	  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+    }
+
+      .login-bar a{
+		font-weight: bold;
+        color: black;
+        text-decoration: none;
+      }
+
+      .login-button{
+		  padding: 5px 20px;
+		  margin: auto 0 auto 40px;
+      }
 
 
 /*__________________nav bar__________________*/
 
 
 /*_______________Build amazing things________*/
+
+h1{
+	font-size: 7em;
+	line-height: .5em;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 0.5em;
+}
 #amazing-things{
 	background-color: rgba(232,217,217,.3);
 	display: flex;
@@ -69,12 +151,15 @@ nav a{
 	align-items:center;
 	flex-direction:column;
 	height: 600px;
+
 	
 }
-
-	/*#build-amazing-title{
-		
-	}*/
+#amazing-things{
+	font: Poppins;
+	/* <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet"> */
+	font-weight: 700;
+}
 
 	.build-amazing-text{
 		text-align: center;
@@ -100,13 +185,13 @@ nav a{
 			#see-plans{
 				color: white;
 				background-color: #FB3B49;
-				box-shadow: 8px 8px 0 rgba(251,59,73,.2);
-				
+				box-shadow: 6px 6px 0 rgba(251,59,73,.2);
+
 			}
 
 			#join-free{
 				background-color: white;
-				
+
 			}
 
 /*_______________Build amazing things________*/
@@ -126,6 +211,8 @@ nav a{
 	font-style: italic;
 	padding:0 20px;
 	margin-top: 40px;
+	word-spacing: -1px;
+	font-weight: bolder;
 }
 
 .bring-the-best-text{
@@ -174,7 +261,7 @@ nav a{
 	justify-content: center;
 	margin: 60px auto 40px;
 	background-color: black;
-	box-shadow:8px 8px 0 rgba(128,83,35,.2);
+	box-shadow:6px 6px 0 rgba(128,83,35,.2);
 	width:250px;
 	height: 50px;
 }
